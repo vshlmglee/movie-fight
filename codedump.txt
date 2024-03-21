@@ -1,0 +1,69 @@
+//fetchData()
+
+// function debounce(func) {
+//   //console.log(this);
+//   let timeoutId;
+//   return (event) => {
+//     //console.log('Inside nested function',this);
+//     //console.log(event.target.value);
+//     console.log('oldTimeoutId',timeoutId)
+//     clearTimeout(timeoutId);
+//     timeoutId = setTimeout(() => {
+//       console.log('timeout id at exection point',timeoutId)
+//       func(event);
+//     }, 500);
+//     console.log('newTimeoutId',timeoutId)
+//   };
+// }
+
+// const onInput = (event) => {
+//   console.log(event.target.value);
+// };
+
+// const onInput = (event) => {
+//   fetchData(event.target.value);
+// };
+
+
+
+
+
+
+
+
+  
+  // while(resultsWrapper.hasChildNodes()){
+  //   resultsWrapper.removeChild(resultsWrapper.firstChild);
+  // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+dropdown.addEventListener('mouseover',()=>{
+  dropdown.classList.add("is-active");
+})
+dropdown.addEventListener('mouseout',()=>{
+  dropdown.classList.remove("is-active");
+})
+
+input.addEventListener("mouseover", () => {
+  dropdown.classList.add("is-active");
+});
+
+
+
+// resultsWrapper.addEventListener('click',(event)=>{
+//   //console.log(event.target.innerText);
+//   input.value = event.target.innerText;
+//   dropdown.classList.remove("is-active");
+
+// })
